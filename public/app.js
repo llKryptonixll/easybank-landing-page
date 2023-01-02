@@ -12,4 +12,5 @@ function handleClick() {
     mobileNavigation.classList.toggle("hidden");
     mobileNavigation.classList.toggle("grid");
     document.getElementsByTagName("html")[0].classList.toggle("overflow-hidden"); // disables scrolling when sidebar is opened
+    document.body.classList.toggle("overflow-hidden"); // disables scrolling when sidebar is opened
 }
